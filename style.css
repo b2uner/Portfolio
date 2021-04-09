@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+a {
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top:0;
+    width: 100%;
+    display: flex;
+    background-color:#BE3144;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+nav {
+    
+    padding: 23px;
+
+}
+nav a {
+    margin-right: 40px;
+    font-size: 2.7vh;
+    color: white;
+
+}
+.banner {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1F2022;
+}
+.banner-highlight h1 {
+    color: white;
+    font-size: 10vh;
+    text-align: center;
+
+}
+.banner-highlight h3 {
+    color:#BE3144 ;
+    font-style: italic;
+    text-align: center;
+    font-size: 40px;
+}
+ .projects-area {
+display: flex;
+width: 100%;
+justify-content: center;
+text-align: center;
+background-color: #45567D;
+flex-wrap: wrap;
+
+
+ }
+ .main-container {
+ display: flex;
+ flex-wrap: wrap;
+ width: 100%;
+ max-width: 1400px;
+ justify-content: center;
+ 
+ }
+ .box {
+width:100%;
+max-width: 390px;
+padding:25px;
+     
+ }
+ @media only screen and (max-width: 1000px) {
+    .box {
+      
+        max-width: 500px;
+        padding:25px;
+             
+         }
+  }
+  
+
+ img {
+   width: 100%;
+   margin: 0;
+   padding: 0;
+ }
+ .box a h5{
+     background-color: #303841;
+     color: white;
+     font-size: 20px;
+     padding: 17px;
+     
+ }
+
+
+.title {
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+ 
+.title h1 {
+    font-size: 70px;
+    color: rgb(214, 214, 214);
+    text-decoration: underline;
+}
+
+.button-area {
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+button {
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    background-color: #303841;
+    color: white; 
+    border: none;
+}
+.social {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #303841;
+    flex-wrap: wrap;
+
+    
+}
+
+.social h2 {
+    font-size: 70px;
+    color: white;
+    
+}
+
+.social p {
+    color: white;
+    padding-top: 20px;
+    font-style: italic;
+
+}
+.link-area { 
+    margin:0;
+    display: flex;
+    align-items: baseline;
+ justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    
+
+    
+}
+
+.link-area a {
+    padding: 30px;
+    font-size: 30px;
+    color: white;
+    
+}
+
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: #303841;
+    border-top: 3px solid red;
+    height: 120px;
+    justify-content: space-around;
+    align-items: center;
+ }
+footer p {
+    color: white;
+    font-size: 2vh;
+}
+.footer-text {
+    max-width: 50%;
+}
